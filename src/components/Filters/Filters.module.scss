@@ -1,0 +1,22 @@
+@import "../../app/styles/variables/colors";
+
+.checkbox {
+  accent-color: $secondary-color;
+}
+
+label {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border: 1px solid darken($secondary-color, 20%);
+}
+
+input[type="checkbox"]:checked + label {
+  border: 1px solid red;
+}
+
+.checkboxWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

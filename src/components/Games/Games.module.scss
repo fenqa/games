@@ -1,0 +1,10 @@
+@import "../../app/styles/variables/colors";
+
+.container {
+  flex-basis: 80%;
+  height: fit-content;
+  background: lighten($main-color, 40%);
+  padding: 20px;
+  padding-right: 0px;
+  border-radius: 10px;
+}

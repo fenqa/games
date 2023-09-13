@@ -1,0 +1,10 @@
+.container {
+  overflow-y: auto;
+  position: relative;
+}
+
+.container {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}

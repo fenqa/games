@@ -1,0 +1,10 @@
+@import "reset";
+@import "variables/global";
+@import "variables/colors";
+
+#root {
+  font: var(--font-m);
+
+  background: var(--bg-color);
+  color: var(--primary-color);
+}

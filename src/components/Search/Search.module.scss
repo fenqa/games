@@ -1,0 +1,9 @@
+@import "../../app/styles/variables/colors";
+
+.container input {
+  background: lighten($main-color, 40%);
+  outline: none;
+  width: 100%;
+  border: 1px solid $secondary-color;
+  padding: 5px;
+}

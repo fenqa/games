@@ -1,0 +1,39 @@
+@import "../../../app/styles/variables/colors.scss";
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: $main-color;
+  padding: 10px;
+  flex-direction: column;
+  border-radius: 10px;
+  position: relative;
+}
+
+.descContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  text-align: center;
+  flex-grow: 1;
+  color: #fff;
+  font-size: 17px;
+}
+
+.card img {
+  max-width: 150px;
+}
+
+.demo {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: $secondary-color;
+  font-weight: bold;
+  padding: 5px 10px 5px 10px;
+  font-size: 12px;
+  border-radius: 10px 0 10px 0;
+}
