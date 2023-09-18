@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import useElementSize from "../../hooks/useElementSize";
 import virtualizedListStyles from "./VirtualizedList.module.scss";
-import { IGame } from "../Games/Game/types";
+import { type IGame } from "../Games/Game/types";
 
 type VirtualizedListProps = {
   rowHeight: number;
